@@ -1,18 +1,20 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
+<html lang="tr">
 
-  <body>
-    <script>
-      var asus; // Değişkeni tanımladık
-      asus = "Lorem";
-      document.write(asus); //Sonra burdan direkt sayfada görüntülenmesini sağladık
-      asus = prompt("Adınız"); // Burda kullanıcıdan ınput istedik
-      alert("Merhaba "+ asus); // Kullanıcının girdiği input alert olarak ekrana yazdı
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kullanıcıdan veri alma</title>
+</head>
+
+<body>
+  <script>
+    var asus; //Değişkeni tanımladık.
+    asus = "Lorem"; //Değişkenin içini doldurduk.
+    alert(asus); //Sonra burdan uyarı şeklinde kullanıcıya uyarı ile değişkenn içindekini belirledik.
+    asus = prompt("Adınız:"); // Burda kullanıcıdan ınput istedik. Kullanıcıdan istediğimiz değeri asus değişkenine atadık. Eski "Lorem" değeri yerine kullanıcının girdiği "asus" değişkenine tanımlandı.
+    alert("Merhaba " + asus); // Kullanıcının girdiği input alert olarak ekrana yazdı
+  </script>
+</body>
+
 </html>
