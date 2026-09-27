@@ -9,7 +9,7 @@ Let ve const
 ## 📖 Öğrendiğim Kavramlar
 
 - let = İlerde değişkenin içeriğini değiştireceksek let kullanılır.
-- const = Değeri sonradan yeniden atanmayacak değişkenleri tanımlamak için kullanılır.
+- const = Değeri sonradan değiştirilemeyen değişkenleri tanımlamak için kullanılır.
 - 
 - 
 
@@ -20,7 +20,7 @@ Let ve const
 ```javascript
 
 ``` let degiskenİsmi;
-const degiskenİsmi;
+    const degiskenİsmi;
 
 ---
 
@@ -32,7 +32,7 @@ Değiken tanımlamak istenirse bunlar kullanılır.
 
 ## ⚠️ Dikkat Edilmesi Gerekenler
 
-- 
+-
 - 
 - 
 
