@@ -2,13 +2,13 @@
 
 ## 🎯 Konu
 
-Veri tiğpinin öğrenilmesi
+Veri tipinin öğrenilmesi
 
 ---
 
 ## 📖 Öğrendiğim Kavramlar
 
-- Typeof 
+- Typeof = Değişkenin veri tipini öğrenmek için kullanılır.
 - 
 - 
 - 
@@ -18,14 +18,14 @@ Veri tiğpinin öğrenilmesi
 ## 📝 Sözdizimi (Syntax)
 
 ```javascript
-
-``` typeof degisken
+ document.write("Değişken türü: " + typeof  degisken); 
+```
 
 ---
 
 ## 💡 Mantığı
 
-veri tipin öğrenmek istediğimiz değişkenin yanına typeof yazmak
+Veri tipin öğrenmek istediğimiz değişkenin yanına typeof yazmalıyız.
 
 ---
 
@@ -47,8 +47,8 @@ veri tipin öğrenmek istediğimiz değişkenin yanına typeof yazmak
 ## ✅ Doğru Kullanım
 
 ```javascript
-
-```  typeof degisken
+typeof degisken
+```
 
 ---
 

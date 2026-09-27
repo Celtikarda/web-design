@@ -23,6 +23,7 @@ Kullanıcıdan bilgi alma
     alert(asus); //içi dolu
    asus = prompt("Adınız:"); // Burda kullanıcıdan input istedik. Kullanıcıdan istediğimiz değeri asus değişkenine atadık. Eski "Lorem" değeri yerine kullanıcının girdiği "asus" değişkenine tanımlandı.
     alert("Merhaba " + asus);
+```
 
 ---
 
