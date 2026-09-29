@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Değişken veri tipleri V2</title>
+</head>
+
+<body>
+  <script>
+    //Çift tırnak içine tek tırnak , tek tırnak içine çift tırnak yazılır.
+    let ad = "Onun adı 'Kemal' idi ";
+    document.write(ad);
+    document.write("<br>");
+    let degisken = 'Onun adı "Mustafa" idi';
+    document.write(degisken);
+    document.write("<br>");
+    //JavaScript ifadeyi tek seferde değil, soldan sağa ikişer ikişer işler. Sayı+sayı gördüğü sürece toplar. İlk kez bir string ile karşılaştığı an, o andan itibaren her şey birleştirme (yapıştırma) olur — geriye dönüp önceki sayıları da string'e çevirmez, ama ileri gidince hep string modunda kalır.
+    let x = 1 + 2 + "  " + "Toplandı";
+    document.write(x);
+    document.write("<br>");
+    //Değişkene atanan ilk değer string tipindeyse sonraki gelecek değişkenler string tipinde olur. Mesela sayılar toplanmak yerine yan yana dizilir.
+    let tip = "stringTipi" + 3 + 4;
+    document.write(tip);
+    document.write("<br>");
+    //İki taraftan herhangi birinde string tipinde değişken varsa string tipinde devam eder.
+    let topla = 3 + ":İkitaraftanbiri" + 4 + 5;
+    document.write(topla);
+  </script>
+</body>
+
+</html>
